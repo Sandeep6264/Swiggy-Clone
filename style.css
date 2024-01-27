@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+.img{
+   width: 594px;
+   height: 538px;   
+}
+.h2bu{
+    background-image:url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-left:9em ;
+
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+ .sign-up{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    
+}
+.react{
+    margin-top: 4vw;
+}
+div .react p .para-text{
+    font-size: 28px;
+}
+div .react h1{
+    font-size: 38px;
+}
+
+.text-box{
+    position: relative;
+    margin-top: 5vw;
+}
+.text-box input{
+    font-size: 16px;
+}
+.text-box input{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 18px;
+    border-right: none;
+    border-color: antiquewhite;
+}
+#text{
+    color:black;
+    margin: -4px;
+    padding:16px 18px 18px 18px;
+    background-color: #FC8019;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.text-box span{
+    position: absolute;
+    margin-top: 1.5%;
+  margin-left: 55%;
+  font-size: 16px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: #755665;
+}
+.fa-location-crosshairs{
+    font-weight:light;
+    border-color: #755665;
+}
+.text-box span:hover{
+    background-color: #E9E9EB;
+    border-radius: 5%;
+  
+}
+p.para-text {
+    font-size: 20px;
+}
+p.locate{
+    width:85%;
+    color: #686B8E;
+    margin-top: 10px;
+}
+main{
+    width: 100%;
+    height: 400px;
+    background-color:#2B1E16;
+    color: #E0CBC1;
+}
+.table1{
+    width: 100%;
+ 
+}
+.table1 tr img{
+    width: 120px;
+}
+p span.location-of-city{
+    display:block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #A9BDDA;
+}
+
+ .td{
+    margin-left: 100px;
+    width: 270px;
+  
+    text-align: center;
+   
+}
+th.bike img{
+    margin-bottom: -30px;
+}
+.view-img{
+    
+    display: flex;
+    order: 1;
+}
+.view-img img{
+    width: 380px;
+}
+.view-img .swiggy_img1{
+    margin-top: 100px;
+}
+.store img{
+    width: 180px;
+    margin: 5px;
+}
+section{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.dowload_app{
+      margin: 50px;
+}
+.dowload_app h1{
+    font-size: 40px;
+    color: #282C3F;
+    margin-bottom: 25px;
+    margin-top: 70px;
+    width: 300px;
+}
+.dowload_app p{
+    font-size: 19px;
+    color: #8F808C;
+    margin-bottom: 40px;
+    
+}
+.dowload_app{
+    width: 386px;
+    margin-top: 90px;
+  
+   
+}
+.table2{
+    width: 100%;
+    padding: 80px;
+    text-align: left;
+    background-color: black;
+    color: white;
+   
+    
+}
+.table2 th{
+    padding:15px 10px;
+    font-size: 13px;
+    color: #80704A;
+}
+.table2 tr,td{
+    padding: 10px;
+    font-weight: 100;   
+}
+.table2 tr.hover-effect td:hover{
+    font-weight: bold;
+}
+th.table-img{
+  
+   width: 150px;
+   
+}
+th.table-img:hover{
+    transition: all 0.2s ease-in-out;
+    transform-origin: 20px 40px 50px 60 px;
+    transform: perspective(600px) rotateX(60deg);
+
+}
